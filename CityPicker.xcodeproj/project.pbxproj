@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406EC8F51E9B689B006BB927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 406EC8F41E9B689B006BB927 /* main.m */; };
+		406EC8F81E9B689B006BB927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 406EC8F71E9B689B006BB927 /* AppDelegate.m */; };
+		406EC8FB1E9B689B006BB927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406EC8FA1E9B689B006BB927 /* ViewController.m */; };
+		406EC8FE1E9B689B006BB927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406EC8FC1E9B689B006BB927 /* Main.storyboard */; };
+		406EC9001E9B689B006BB927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406EC8FF1E9B689B006BB927 /* Assets.xcassets */; };
+		406EC9031E9B689B006BB927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406EC9011E9B689B006BB927 /* LaunchScreen.storyboard */; };
+		406EC90E1E9B689B006BB927 /* CityPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406EC90D1E9B689B006BB927 /* CityPickerTests.m */; };
+		406EC9191E9B689B006BB927 /* CityPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406EC9181E9B689B006BB927 /* CityPickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		406EC90A1E9B689B006BB927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406EC8E81E9B689B006BB927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406EC8EF1E9B689B006BB927;
+			remoteInfo = CityPicker;
+		};
+		406EC9151E9B689B006BB927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406EC8E81E9B689B006BB927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406EC8EF1E9B689B006BB927;
+			remoteInfo = CityPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		406EC8F01E9B689B006BB927 /* CityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406EC8F41E9B689B006BB927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		406EC8F61E9B689B006BB927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		406EC8F71E9B689B006BB927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		406EC8F91E9B689B006BB927 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		406EC8FA1E9B689B006BB927 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		406EC8FD1E9B689B006BB927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		406EC8FF1E9B689B006BB927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		406EC9021E9B689B006BB927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		406EC9041E9B689B006BB927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406EC9091E9B689B006BB927 /* CityPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406EC90D1E9B689B006BB927 /* CityPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerTests.m; sourceTree = "<group>"; };
+		406EC90F1E9B689B006BB927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406EC9141E9B689B006BB927 /* CityPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406EC9181E9B689B006BB927 /* CityPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerUITests.m; sourceTree = "<group>"; };
+		406EC91A1E9B689B006BB927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406EC8ED1E9B689B006BB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406EC9061E9B689B006BB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406EC9111E9B689B006BB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406EC8E71E9B689B006BB927 = {
+			isa = PBXGroup;
+			children = (
+				406EC8F21E9B689B006BB927 /* CityPicker */,
+				406EC90C1E9B689B006BB927 /* CityPickerTests */,
+				406EC9171E9B689B006BB927 /* CityPickerUITests */,
+				406EC8F11E9B689B006BB927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		406EC8F11E9B689B006BB927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406EC8F01E9B689B006BB927 /* CityPicker.app */,
+				406EC9091E9B689B006BB927 /* CityPickerTests.xctest */,
+				406EC9141E9B689B006BB927 /* CityPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406EC8F21E9B689B006BB927 /* CityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				406EC8F61E9B689B006BB927 /* AppDelegate.h */,
+				406EC8F71E9B689B006BB927 /* AppDelegate.m */,
+				406EC8F91E9B689B006BB927 /* ViewController.h */,
+				406EC8FA1E9B689B006BB927 /* ViewController.m */,
+				406EC8FC1E9B689B006BB927 /* Main.storyboard */,
+				406EC8FF1E9B689B006BB927 /* Assets.xcassets */,
+				406EC9011E9B689B006BB927 /* LaunchScreen.storyboard */,
+				406EC9041E9B689B006BB927 /* Info.plist */,
+				406EC8F31E9B689B006BB927 /* Supporting Files */,
+			);
+			path = CityPicker;
+			sourceTree = "<group>";
+		};
+		406EC8F31E9B689B006BB927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				406EC8F41E9B689B006BB927 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		406EC90C1E9B689B006BB927 /* CityPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				406EC90D1E9B689B006BB927 /* CityPickerTests.m */,
+				406EC90F1E9B689B006BB927 /* Info.plist */,
+			);
+			path = CityPickerTests;
+			sourceTree = "<group>";
+		};
+		406EC9171E9B689B006BB927 /* CityPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				406EC9181E9B689B006BB927 /* CityPickerUITests.m */,
+				406EC91A1E9B689B006BB927 /* Info.plist */,
+			);
+			path = CityPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406EC8EF1E9B689B006BB927 /* CityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406EC91D1E9B689B006BB927 /* Build configuration list for PBXNativeTarget "CityPicker" */;
+			buildPhases = (
+				406EC8EC1E9B689B006BB927 /* Sources */,
+				406EC8ED1E9B689B006BB927 /* Frameworks */,
+				406EC8EE1E9B689B006BB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityPicker;
+			productName = CityPicker;
+			productReference = 406EC8F01E9B689B006BB927 /* CityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		406EC9081E9B689B006BB927 /* CityPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406EC9201E9B689B006BB927 /* Build configuration list for PBXNativeTarget "CityPickerTests" */;
+			buildPhases = (
+				406EC9051E9B689B006BB927 /* Sources */,
+				406EC9061E9B689B006BB927 /* Frameworks */,
+				406EC9071E9B689B006BB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406EC90B1E9B689B006BB927 /* PBXTargetDependency */,
+			);
+			name = CityPickerTests;
+			productName = CityPickerTests;
+			productReference = 406EC9091E9B689B006BB927 /* CityPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		406EC9131E9B689B006BB927 /* CityPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406EC9231E9B689B006BB927 /* Build configuration list for PBXNativeTarget "CityPickerUITests" */;
+			buildPhases = (
+				406EC9101E9B689B006BB927 /* Sources */,
+				406EC9111E9B689B006BB927 /* Frameworks */,
+				406EC9121E9B689B006BB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406EC9161E9B689B006BB927 /* PBXTargetDependency */,
+			);
+			name = CityPickerUITests;
+			productName = CityPickerUITests;
+			productReference = 406EC9141E9B689B006BB927 /* CityPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406EC8E81E9B689B006BB927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cs;
+				TargetAttributes = {
+					406EC8EF1E9B689B006BB927 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					406EC9081E9B689B006BB927 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 406EC8EF1E9B689B006BB927;
+					};
+					406EC9131E9B689B006BB927 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 406EC8EF1E9B689B006BB927;
+					};
+				};
+			};
+			buildConfigurationList = 406EC8EB1E9B689B006BB927 /* Build configuration list for PBXProject "CityPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406EC8E71E9B689B006BB927;
+			productRefGroup = 406EC8F11E9B689B006BB927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406EC8EF1E9B689B006BB927 /* CityPicker */,
+				406EC9081E9B689B006BB927 /* CityPickerTests */,
+				406EC9131E9B689B006BB927 /* CityPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406EC8EE1E9B689B006BB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406EC9031E9B689B006BB927 /* LaunchScreen.storyboard in Resources */,
+				406EC9001E9B689B006BB927 /* Assets.xcassets in Resources */,
+				406EC8FE1E9B689B006BB927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406EC9071E9B689B006BB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406EC9121E9B689B006BB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406EC8EC1E9B689B006BB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406EC8FB1E9B689B006BB927 /* ViewController.m in Sources */,
+				406EC8F81E9B689B006BB927 /* AppDelegate.m in Sources */,
+				406EC8F51E9B689B006BB927 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406EC9051E9B689B006BB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406EC90E1E9B689B006BB927 /* CityPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406EC9101E9B689B006BB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406EC9191E9B689B006BB927 /* CityPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406EC90B1E9B689B006BB927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406EC8EF1E9B689B006BB927 /* CityPicker */;
+			targetProxy = 406EC90A1E9B689B006BB927 /* PBXContainerItemProxy */;
+		};
+		406EC9161E9B689B006BB927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406EC8EF1E9B689B006BB927 /* CityPicker */;
+			targetProxy = 406EC9151E9B689B006BB927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		406EC8FC1E9B689B006BB927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406EC8FD1E9B689B006BB927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		406EC9011E9B689B006BB927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406EC9021E9B689B006BB927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		406EC91B1E9B689B006BB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		406EC91C1E9B689B006BB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406EC91E1E9B689B006BB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CityPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		406EC91F1E9B689B006BB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CityPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		406EC9211E9B689B006BB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CityPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPicker.app/CityPicker";
+			};
+			name = Debug;
+		};
+		406EC9221E9B689B006BB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CityPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPicker.app/CityPicker";
+			};
+			name = Release;
+		};
+		406EC9241E9B689B006BB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CityPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CityPicker;
+			};
+			name = Debug;
+		};
+		406EC9251E9B689B006BB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CityPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CityPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406EC8EB1E9B689B006BB927 /* Build configuration list for PBXProject "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406EC91B1E9B689B006BB927 /* Debug */,
+				406EC91C1E9B689B006BB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406EC91D1E9B689B006BB927 /* Build configuration list for PBXNativeTarget "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406EC91E1E9B689B006BB927 /* Debug */,
+				406EC91F1E9B689B006BB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		406EC9201E9B689B006BB927 /* Build configuration list for PBXNativeTarget "CityPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406EC9211E9B689B006BB927 /* Debug */,
+				406EC9221E9B689B006BB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		406EC9231E9B689B006BB927 /* Build configuration list for PBXNativeTarget "CityPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406EC9241E9B689B006BB927 /* Debug */,
+				406EC9251E9B689B006BB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406EC8E81E9B689B006BB927 /* Project object */;
+}
